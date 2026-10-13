@@ -1,5 +1,5 @@
 """
-AI-Based Scam Message Detection and Risk Analysis App
+SCAM DETECTOR
 -----------------------------------------------------
 Hybrid approach:
   1. Rule-based analysis  -> finds scam patterns and gives an explanation
@@ -17,7 +17,7 @@ import streamlit as st
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
-
+st.set_page_config(page_title="My App", page_icon="🔥")
 # ----------------------------------------------------------------------
 # 1. Small sample dataset (replace with a bigger labelled dataset later,
 #    e.g. the UCI SMS Spam Collection)
